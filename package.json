@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float16-min-ln",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Natural logarithm of the smallest normalized half-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -36,10 +36,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/constants-float16-smallest-normal": "^0.2.2",
+    "@stdlib/constants-float16-smallest-normal": "^0.2.3",
     "@stdlib/math-base-special-ln": "^0.2.4",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/number-float64-base-to-float16": "github:stdlib-js/number-float64-base-to-float16#main",
+    "@stdlib/number-float64-base-to-float16": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
