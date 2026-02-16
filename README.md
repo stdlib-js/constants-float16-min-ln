@@ -35,43 +35,32 @@ limitations under the License.
 
 > [Natural logarithm][natural-logarithm] of the smallest **normalized** [half-precision floating-point number][ieee754].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float16-min-ln
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-FLOAT16_MIN_LN = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-min-ln@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-min-ln/tags). For example,
-
-```javascript
-FLOAT16_MIN_LN = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-min-ln@v0.1.1-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var FLOAT16_MIN_LN = require( 'path/to/vendor/umd/constants-float16-min-ln/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-min-ln@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FLOAT16_MIN_LN;
-})();
-</script>
+var FLOAT16_MIN_LN = require( '@stdlib/constants-float16-min-ln' );
 ```
 
 #### FLOAT16_MIN_LN
@@ -95,21 +84,11 @@ var bool = ( FLOAT16_MIN_LN === -9.703125 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-min-ln@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var FLOAT16_MIN_LN = require( '@stdlib/constants-float16-min-ln' );
 
 console.log( FLOAT16_MIN_LN );
 // => -9.703125
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -163,8 +142,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-float16-min-ln.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-float16-min-ln
 
-[test-image]: https://github.com/stdlib-js/constants-float16-min-ln/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/constants-float16-min-ln/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/constants-float16-min-ln/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/constants-float16-min-ln/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float16-min-ln/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float16-min-ln?branch=main
